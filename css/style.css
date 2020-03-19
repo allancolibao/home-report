@@ -2,4 +2,24 @@ html,
 body {
     overflow-x: hidden;
     scroll-behavior: smooth;
+    font-family: 'Righteous', cursive;
+    font-weight: bold !important;
 }
+.navbar{
+    background: #00c6ff;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #0072ff, #00c6ff);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #0072ff, #00c6ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
+    font-weight: lighter;
+    color: white;
+    font-family: 'Righteous', cursive;
+}
+.brandW{
+    filter:invert(100%);
+}
+
+#sticky-footer {
+    flex-shrink: none;
+    background: #00c6ff;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #0072ff, #00c6ff);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #0072ff, #00c6ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
+  }
