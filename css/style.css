@@ -2,24 +2,31 @@ html,
 body {
     overflow-x: hidden;
     scroll-behavior: smooth;
-    font-family: 'Righteous', cursive;
+    font-family: "Lucida Console", Monaco, monospace;
     font-weight: bold !important;
+    background-color: #fafafa;
 }
 .navbar{
-    background: #00c6ff;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #0072ff, #00c6ff);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #0072ff, #00c6ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
+    background: #121720;
     font-weight: lighter;
-    color: white;
-    font-family: 'Righteous', cursive;
+    font-family: "Lucida Console", Monaco, monospace;
 }
 .brandW{
     filter:invert(100%);
 }
 
+a {
+    color: rgb(16, 185, 53);
+}
+a:hover {
+    color: rgb(13, 173, 61) ;
+}
+
+.nav-pills > .active >.nav-link, .nav-pills > .active > .nav-link:hover {
+    background-color: red !important;
+}
+
 #sticky-footer {
     flex-shrink: none;
-    background: #00c6ff;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #0072ff, #00c6ff);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #0072ff, #00c6ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
+    background: #121720;
   }
