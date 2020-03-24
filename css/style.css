@@ -2,24 +2,26 @@ html,
 body {
     overflow-x: hidden;
     scroll-behavior: smooth;
-    font-family: "Lucida Console", Monaco, monospace;
     font-weight: bold !important;
     background-color: #fafafa;
 }
 .navbar{
     background: #121720;
     font-weight: lighter;
-    font-family: "Lucida Console", Monaco, monospace;
 }
 .brandW{
     filter:invert(100%);
 }
 
 a {
-    color: rgb(16, 185, 53);
+    color: #007bff;
 }
 a:hover {
-    color: rgb(13, 173, 61) ;
+    color: #007bff ;
+}
+
+h6 {
+    padding: 1.5rem;
 }
 
 .nav-pills > .active >.nav-link, .nav-pills > .active > .nav-link:hover {
@@ -28,5 +30,5 @@ a:hover {
 
 #sticky-footer {
     flex-shrink: none;
-    background: #121720;
+    background: #fdfdfd;
   }
